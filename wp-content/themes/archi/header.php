@@ -22,7 +22,7 @@
 <?php wp_head(); ?>
 <style>
 		#services-masonry > div > p {
-			min-height: 190px;
+			min-height: 200px;
 			padding-top:10px;
 		}
 </style>
