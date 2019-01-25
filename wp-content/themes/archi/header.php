@@ -27,8 +27,10 @@
 		}
 </style>
 <script>
+document.addEventListener("DOMContentLoaded", function(event) {
 $(".owl-prev").text('111');
-
+console.log('change!');
+});
 </script>
 </head>
 <body <?php body_class(); ?> >
