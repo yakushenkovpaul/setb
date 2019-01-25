@@ -5436,7 +5436,10 @@ padding: 10px 0 0 0;
             display: inline-block;
             width: 100%;
             text-align: center;
-        }
+				}
+		#services-masonry h3 {
+			padding:10px;
+		}				
 		.sm-hide{
 			display:none;
 		}
