@@ -31,6 +31,8 @@
 document.addEventListener("DOMContentLoaded", function(event) {
 	$(".owl-prev").text('Назад');
 	$(".owl-next").text('Вперед');
+	$(".twentytwenty-before-label").attr('data-content', 'До');
+	$(".twentytwenty-after-label").attr('data-content', 'После');
 });
 </script>
 </head>
