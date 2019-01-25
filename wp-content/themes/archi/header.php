@@ -41,7 +41,7 @@
                         </div>    
                     <?php }*/ ?>
 
-                    <?php if($archi_option['topbar_col_right'] != 'none'){ ?>
+                    <?php /*if($archi_option['topbar_col_right'] != 'none'){ ?>
                         <div class="col-md-<?php echo esc_attr($archi_option['topbar_col_right']); ?>"> 
                             <?php if($archi_option['switch_header_social']!=false){ ?>
                                 <!-- social icons -->
@@ -116,7 +116,7 @@
                                 echo htmlspecialchars_decode( do_shortcode( $archi_option['multi_languages_shortcode'] ) );
                             } ?>
                         </div>
-                    <?php } ?>
+                    <?php }*/ ?>
                 </div>
             </div>
         </div>   
