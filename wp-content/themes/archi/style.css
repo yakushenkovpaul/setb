@@ -381,12 +381,13 @@ img{height: auto;}
     header div#logo a{display: inline-block;}
     header div#logo a img{
         max-width: 340px;
-        max-height: 80px;
+        max-height: 170px;
         -webkit-transition: all 0.3s;
         -moz-transition: all 0.3s;
         -ms-transition: all 0.3s;
         -o-transition: all 0.3s;
-        transition: all 0.3s; 
+				transition: all 0.3s; 
+				margin-top: -40px;
     }
     header.smaller div#logo a img{
         max-width: 250px;
