@@ -223,7 +223,7 @@ function archi_theme_scripts_styles() {
     wp_enqueue_style( 'archi-YTPlayer', get_template_directory_uri().'/css/jquery.mb.YTPlayer.min.css');
 
     /** Theme stylesheet. **/
-		wp_enqueue_style( 'archi-style', get_stylesheet_uri(), array(), time() );
+		wp_enqueue_style( 'archi-style', get_stylesheet_uri(), array(), time() . '_' . rand(0, 100) );
     
     if(isset($archi_option['header_layout']) and $archi_option['header_layout']=="hleft_side" ){
         wp_enqueue_style( 'archi-header-sidenav', get_template_directory_uri().'/css/header-sidenav.css');
