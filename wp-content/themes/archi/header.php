@@ -22,8 +22,8 @@
 <?php wp_head(); ?>
 <style>
 		#services-masonry > div > p {
-			background-color: #1a8b49;
-			min-height: 180px;
+			min-height: 190px;
+			padding-top:10px;
 		}
 </style>
 </head>
