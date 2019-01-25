@@ -5437,7 +5437,7 @@ padding: 10px 0 0 0;
             width: 100%;
             text-align: center;
 				}
-		#services-masonry div h3 {
+		#services-masonry h3 {
 			padding:20px;
 			color:#f00 !important;
 		}		
