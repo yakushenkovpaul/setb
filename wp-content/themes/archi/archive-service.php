@@ -40,7 +40,7 @@
 <!-- content begin -->
 <?php if(isset($archi_option['archive_service_style']) and $archi_option['archive_service_style']!="slist"){ ?>
 <div id="content">
-    <div class="container">
+    <div class="container"><!-- aaaaqqqq1 -->
         <div id="services-masonry" class="row">
 <?php }else{ ?>
     <div id="content" class="no-padding">
