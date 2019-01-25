@@ -466,7 +466,7 @@ require get_template_directory() . '/framework/BFI_Thumb.php';
 function callback($buffer) {
 
 $array = array(
-	'next' => 'вперед'
+	'next' => 'вперед1'
 );
 
 if(!empty(($array)))
