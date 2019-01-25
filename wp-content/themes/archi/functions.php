@@ -475,8 +475,6 @@ function callback($buffer) {
 		}
 	}
 
-	return 'eeee';
-
 	return $buffer;
 }
 
@@ -488,3 +486,6 @@ ob_start("callback");
 function buffer_end() {
 ob_end_flush();
 }
+
+add_action('wp_head', 'buffer_start');
+add_action('wp_footer', 'buffer_end');
