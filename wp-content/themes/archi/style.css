@@ -5437,9 +5437,8 @@ padding: 10px 0 0 0;
             width: 100%;
             text-align: center;
 				}
-		#services-masonry h3 {
-			padding:20px;
-			color:#f00 !important;
+		#services-masonry {
+			background-color: #1a8b49;
 		}		
 		.h180
 		{
