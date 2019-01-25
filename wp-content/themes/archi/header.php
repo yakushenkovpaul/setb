@@ -35,11 +35,11 @@
         <div class="info">
             <div class="<?php if($archi_option['header-wideboxed']!=false){echo 'container-fluid';}else{echo 'container';} ?>">
                 <div class="row">
-                    <?php if($archi_option['topbar_col_left'] != 'none'){ ?>
+                    <?php /*if($archi_option['topbar_col_left'] != 'none'){ ?>
                         <div class="col-md-<?php echo esc_attr($archi_option['topbar_col_left']); ?>">
                             <?php echo htmlspecialchars_decode( do_shortcode( $archi_option['info_list_text'] ) ); ?>                        
                         </div>    
-                    <?php } ?>
+                    <?php }*/ ?>
 
                     <?php if($archi_option['topbar_col_right'] != 'none'){ ?>
                         <div class="col-md-<?php echo esc_attr($archi_option['topbar_col_right']); ?>"> 
