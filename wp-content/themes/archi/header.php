@@ -20,6 +20,11 @@
     <?php archi_custom_favicon() ?>	
 	
 <?php wp_head(); ?>
+<style>
+		#services-masonry {
+			background-color: #1a8b49;
+		}
+</style>
 </head>
 <body <?php body_class(); ?> >
 <?php 
