@@ -56,7 +56,7 @@ function archi_header_class() {
     $header_classes = array();
 
     if(( isset($archi_option['header_position']) and $archi_option['header_position']!="onbottom_page" and $archi_option['topbar-onepage']==true and is_page_template('page-templates/template-onepage.php')) || ($archi_option['topbar-allpage']==true and !is_page_template('page-templates/template-onepage.php'))){ 
-        $header_classes[] = 'de_header_2';
+        $header_classes[] = '';
     }
 
     if ($archi_option['mobile-sticky']==true) {
