@@ -475,8 +475,6 @@ function callback($buffer) {
 		}
 	}
 
-	return 'aaaaqqqq99991';
-
 	return $buffer;
 }
 
