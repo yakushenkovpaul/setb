@@ -483,7 +483,7 @@ function callback($buffer) {
 		'The Blog Single' => 'Блог',
 		'Submit Form' => 'Отправить',
 		'Your' => 'Ваше',
-		'' => '',
+		'Message' => 'сообщение',
 		'' => '',
 		'' => '',
 		'' => '',						
