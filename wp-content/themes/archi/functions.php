@@ -484,7 +484,7 @@ function callback($buffer) {
 		'Submit Form' => 'Отправить',
 		'Your' => 'Ваше',
 		'Message' => 'сообщение',
-		'' => '',
+		'demo.archiwp.com' => 'set-b.ru',
 		'' => '',
 		'' => '',						
 		'' => '',
