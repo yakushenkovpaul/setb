@@ -30,7 +30,7 @@
 <div id="wrapper">
     <!-- header begin -->
     <header class="<?php archi_header_class(); ?>"> 
-    <?php if($archi_option['topbar-allpage']!=false){ ?>        
+    <?php /*if($archi_option['topbar-allpage']!=false){ ?>        
         <!-- top header begin -->
         <div class="info">
             <div class="<?php if($archi_option['header-wideboxed']!=false){echo 'container-fluid';}else{echo 'container';} ?>">
@@ -121,7 +121,7 @@
             </div>
         </div>   
         <!-- top header close -->
-        <?php } ?>
+		<?php } */ ?>
 
         <div class="<?php if($archi_option['header-wideboxed']!=false){echo 'container-fluid';}else{echo 'container';} ?>">
             <div class="row">

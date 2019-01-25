@@ -391,7 +391,8 @@ img{height: auto;}
     }
     header.smaller div#logo a img{
         max-width: 250px;
-        max-height: 60px;
+				max-height: 110px;
+				margin-top: -15px;
     }
 
     header div#logo .logo-2, header div#logo .logo-scroll{
