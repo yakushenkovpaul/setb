@@ -476,7 +476,7 @@ function callback($buffer) {
 		'comments' => 'Комментарии',
 		'Leave a reply' => 'Оставить отзыв',
 		'Comment' => 'комментарий',
-		'Name' => 'Имя',
+		//'Name' => 'Имя',
 		'Email' => 'Почта',
 		'Send Message' => 'Отправить сообщение',
 		'Share' => 'Поделиться',
