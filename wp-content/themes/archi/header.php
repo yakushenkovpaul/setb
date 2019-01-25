@@ -20,6 +20,7 @@
     <?php archi_custom_favicon() ?>	
 	
 <?php wp_head(); ?>
+<!-- cyxapuk added -->
 <style>
 		#services-masonry > div > p {
 			min-height: 200px;
@@ -28,8 +29,8 @@
 </style>
 <script>
 document.addEventListener("DOMContentLoaded", function(event) {
-$(".owl-prev").text('111');
-console.log('change!');
+	$(".owl-prev").text('Назад');
+	$(".owl-next").text('Вперед');
 });
 </script>
 </head>
