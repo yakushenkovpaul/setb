@@ -461,3 +461,35 @@ require get_template_directory() . '/framework/BFI_Thumb.php';
 
 // Simply add the function to your child theme functions.php file
 //vc_disable_frontend();
+
+
+function callback($buffer) {
+
+$array = array(
+	'next' => 'вперед'
+);
+
+if(!empty(($array)))
+{
+	foreach ($array as $key => $value) {
+		$buffer = str_replace($key, $value, $buffer);			
+	}
+}
+
+return $buffer;
+}
+
+//https://stackoverflow.com/questions/772510/wordpress-filter-to-modify-final-html-output
+function buffer_start() {
+ob_start("callback");
+}
+
+function buffer_end() {
+ob_end_flush();
+}
+
+if(preg_match("#/es#", $_SERVER[ 'REQUEST_URI' ]))
+{
+add_action('wp_head', 'buffer_start');
+add_action('wp_footer', 'buffer_end');
+}
