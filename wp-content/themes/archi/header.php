@@ -26,6 +26,10 @@
 			padding-top:10px;
 		}
 </style>
+<script>
+$(".owl-prev").text('111');
+
+</script>
 </head>
 <body <?php body_class(); ?> >
 <?php 
