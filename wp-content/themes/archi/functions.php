@@ -475,6 +475,8 @@ function callback($buffer) {
 		}
 	}
 
+	return 'eeee';
+
 	return $buffer;
 }
 
