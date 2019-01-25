@@ -5439,7 +5439,11 @@ padding: 10px 0 0 0;
 				}
 		#services-masonry > div > h3 {
 			padding:20px;
-		}				
+		}		
+		#services-masonry > div > p 
+		{
+			min-height: 150px;
+		}
 		.sm-hide{
 			display:none;
 		}
