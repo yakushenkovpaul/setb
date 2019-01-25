@@ -5440,9 +5440,9 @@ padding: 10px 0 0 0;
 		#services-masonry > div > h3 {
 			padding:20px;
 		}		
-		#services-masonry > div > p 
+		.h180
 		{
-			min-height: 250px;
+			min-height: 180px;
 		}
 		.sm-hide{
 			display:none;
