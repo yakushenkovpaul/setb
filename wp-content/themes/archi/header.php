@@ -23,6 +23,7 @@
 <style>
 		#services-masonry > div > p {
 			background-color: #1a8b49;
+			min-height: 180px;
 		}
 </style>
 </head>
