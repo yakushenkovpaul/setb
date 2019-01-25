@@ -462,23 +462,22 @@ require get_template_directory() . '/framework/BFI_Thumb.php';
 // Simply add the function to your child theme functions.php file
 //vc_disable_frontend();
 
-die('aaaa');
-
-
 function callback($buffer) {
 
-$array = array(
-	'next' => 'вперед1'
-);
+	$array = array(
+		'next' => 'вперед1'
+	);
 
-if(!empty(($array)))
-{
-	foreach ($array as $key => $value) {
-		$buffer = str_replace($key, $value, $buffer);			
+	if(!empty(($array)))
+	{
+		foreach ($array as $key => $value) {
+			$buffer = str_replace($key, $value, $buffer);			
+		}
 	}
-}
 
-return $buffer;
+	return 'eeee';
+
+	return $buffer;
 }
 
 //https://stackoverflow.com/questions/772510/wordpress-filter-to-modify-final-html-output
